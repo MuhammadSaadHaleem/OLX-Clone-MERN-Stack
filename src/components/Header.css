@@ -1,0 +1,25 @@
+.step1 {
+    display: flex;
+    position: absolute;
+    left: 15%;
+
+}
+
+.step1 img {
+
+    width: 3%;
+    height: 3%;
+}
+
+.step2 {
+    display: flex;
+    position: absolute;
+    left: 15%;
+    top: 10vh;
+
+}
+
+.step2 img {
+    width: 5%;
+    height: 50px;
+}
