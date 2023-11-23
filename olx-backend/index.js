@@ -6,7 +6,7 @@ const app = express()
 
 app.use(cors())
 
-app.listen(4000, function () {
+app.listen(process.env.port||4000, function () {
   console.log('Listening to 4000')
 })
 
